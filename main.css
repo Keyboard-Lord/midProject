@@ -1,0 +1,131 @@
+* {
+    
+    
+    font-family: 'Roboto', sans-serif;
+    margin: 0px auto 0px auto;
+}
+h1 {
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 100px;
+    width: 1280px;
+    height: 600px;
+    font-weight: 900;
+    font-style: oblique;
+}
+h2 {
+    font-family: 'MedievalSharp', cursive;
+    color: gold;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: goldenrod;
+    font-size: 24px;
+    padding: 10px;
+    
+}
+h4 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    text-emphasis: bold;
+    font-weight: 900;
+}
+h5 {
+    font-family: 'MedievalSharp', cursive;
+    text-indent: 15px;
+    font-size: 16px;
+    color: lightskyblue;
+    font-style: oblique;
+}
+a {
+    color: gold;
+    text-decoration: none;
+    font-family: 'MedievalSharp', cursive;
+}
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+body {
+    background-color: black;
+}   
+iframe {
+    
+    width: 640px;
+    height: 380px;
+}
+p {
+    text-emphasis: bolder;
+    font-size: 20px;
+    text-align: left;
+    padding: 7px;
+    margin: 3px;
+    
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+}
+.title {
+    
+    background-image: url(background.jpg);
+    color: goldenrod;
+    width: 1280px;
+    height: 720px;
+    margin-bottom: 15px;
+    border: darkcyan solid 1px;
+    padding-top: 15%;
+    box-sizing: border-box;
+}
+.theGreeting {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgreen;
+    background-image: url(menubar.bmp);
+    color: white;
+    width: 1280px;
+    height: 60px;
+    top: 0px;
+    margin-bottom: 15px;
+    border: darkcyan solid 1px;
+    
+}
+.theBodyL {
+    display: flex;
+    justify-content: space-around;
+    background-color: #600080;
+    color: rgb(66, 190, 228);
+    width: 1280px;
+    height: 380px;
+    border: darkcyan solid 1px;
+    background-image: url(rback.jpg);
+}
+.theBodyR {
+    display: flex;
+    justify-content: space-around;
+    background-color: #600080;
+    background-image: url(rback.jpg);
+    color: rgb(66, 190, 228);
+    width: 1280px;
+    height: 380px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: darkcyan solid 1px;
+}
+.left {
+    padding-top: 10px;
+    padding-left: 5px;
+    top: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.right {
+    padding-top: 10px;
+    padding-right: 5px;
+    top: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
